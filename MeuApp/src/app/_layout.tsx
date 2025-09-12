@@ -10,6 +10,15 @@ export default function MainLoyout(){
           headerShown: false
         }}
       />
+
+        <Stack.Screen
+        name="home"
+         options={{  headerShown: false }}
+      />
+
+      <Stack.Screen 
+      name="detail" 
+      options={{  headerShown: false }} />
     </Stack>
   )
 }
